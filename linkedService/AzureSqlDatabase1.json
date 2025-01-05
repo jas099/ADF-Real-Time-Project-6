@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "demo-server-4.database.windows.net",
+			"database": "demmo-database-4",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "JG",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIyNTEyMkI1LTUxQkYtNDlFMi05QkJFLUU2M0VGNjQ1OEJFRF8zM2E5OWJhMy03MzRjLTQ2NmQtOGU3ZC1kMjA1MTBkZGJlM2YiDQp9"
+		}
+	}
+}
